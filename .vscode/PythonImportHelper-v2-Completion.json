@@ -56,6 +56,14 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "wraps",
         "importPath": "functools",
         "description": "functools",
@@ -226,6 +234,41 @@
         "importPath": "pytest",
         "description": "pytest",
         "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "duckdb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "duckdb",
+        "description": "duckdb",
+        "detail": "duckdb",
         "documentation": {}
     },
     {
@@ -559,6 +602,69 @@
         "description": "labs.lab3.tests.test_operaciones",
         "peekOfCode": "def test_division_cero():\n    with pytest.raises(ValueError):\n        division(1, 0)",
         "detail": "labs.lab3.tests.test_operaciones",
+        "documentation": {}
+    },
+    {
+        "label": "asegurar_dataset",
+        "kind": 2,
+        "importPath": "labs.lab4.main",
+        "description": "labs.lab4.main",
+        "peekOfCode": "def asegurar_dataset() -> None:\n    \"\"\"Crea un CSV pequeño si no existe.\"\"\"\n    if DATA_PATH.exists():\n        return\n    # Dataset de ejemplo (20 filas, con algunos nulos deliberados)\n    df = pd.DataFrame({\n        \"id\": range(1, 21),\n        \"fecha\": pd.date_range(\"2024-01-01\", periods=20, freq=\"D\"),\n        \"categoria\": [\"A\", \"B\", \"C\", \"A\", \"B\"] * 4,\n        \"producto\": [\"Prod1\", \"Prod2\", \"Prod3\", \"Prod4\"] * 5,",
+        "detail": "labs.lab4.main",
+        "documentation": {}
+    },
+    {
+        "label": "parte_a_pandas",
+        "kind": 2,
+        "importPath": "labs.lab4.main",
+        "description": "labs.lab4.main",
+        "peekOfCode": "def parte_a_pandas():\n    print(\"\\n=== Parte A — pandas ===\")\n    df = pd.read_csv(DATA_PATH)\n    print(f\"[Exploración] Forma: {df.shape[0]} filas x {df.shape[1]} columnas\")\n    print(\"[Tipos]:\")\n    print(df.dtypes)\n    print(\"\\n[Nulos por columna]:\")\n    print(df.isna().sum())\n    # Columna clave (ejemplo): 'id' y 'fecha'\n    print(\"\\n[Columna clave] id (entero) y fecha (temporal)\")",
+        "detail": "labs.lab4.main",
+        "documentation": {}
+    },
+    {
+        "label": "parte_b_duckdb",
+        "kind": 2,
+        "importPath": "labs.lab4.main",
+        "description": "labs.lab4.main",
+        "peekOfCode": "def parte_b_duckdb():\n    print(\"\\n=== Parte B — DuckDB (SQL embebido) ===\")\n    # B.1: primer query sobre el archivo (sin pasar por pandas)\n    cnt = duckdb.query(f\"SELECT COUNT(*) AS filas FROM read_csv_auto('{DATA_PATH.as_posix()}', HEADER=True);\").to_df()\n    print(\"[Conteo directo CSV con DuckDB]:\")\n    print(cnt)\n    # SELECT que replica el análisis de pandas:\n    # - Limpieza equivalente (precio nulo->0, cantidad nula->1, cliente trim/title, categoria upper)\n    # - Derivadas: importe, mes\n    # - Filtro: precio > 10",
+        "detail": "labs.lab4.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "labs.lab4.main",
+        "description": "labs.lab4.main",
+        "peekOfCode": "def main():\n    asegurar_dataset()\n    parte_a_pandas()\n    parte_b_duckdb()\n    print(\"\\n✅ Lab 4 completado. Archivos en:\", OUT_DIR)\nif __name__ == \"__main__\":\n    main()",
+        "detail": "labs.lab4.main",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT",
+        "kind": 5,
+        "importPath": "labs.lab4.main",
+        "description": "labs.lab4.main",
+        "peekOfCode": "ROOT = Path(__file__).parent\nDATA_PATH = ROOT / \"ventas_demo.csv\"\nOUT_DIR = ROOT / \"output\"\nOUT_DIR.mkdir(parents=True, exist_ok=True)\ndef asegurar_dataset() -> None:\n    \"\"\"Crea un CSV pequeño si no existe.\"\"\"\n    if DATA_PATH.exists():\n        return\n    # Dataset de ejemplo (20 filas, con algunos nulos deliberados)\n    df = pd.DataFrame({",
+        "detail": "labs.lab4.main",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_PATH",
+        "kind": 5,
+        "importPath": "labs.lab4.main",
+        "description": "labs.lab4.main",
+        "peekOfCode": "DATA_PATH = ROOT / \"ventas_demo.csv\"\nOUT_DIR = ROOT / \"output\"\nOUT_DIR.mkdir(parents=True, exist_ok=True)\ndef asegurar_dataset() -> None:\n    \"\"\"Crea un CSV pequeño si no existe.\"\"\"\n    if DATA_PATH.exists():\n        return\n    # Dataset de ejemplo (20 filas, con algunos nulos deliberados)\n    df = pd.DataFrame({\n        \"id\": range(1, 21),",
+        "detail": "labs.lab4.main",
+        "documentation": {}
+    },
+    {
+        "label": "OUT_DIR",
+        "kind": 5,
+        "importPath": "labs.lab4.main",
+        "description": "labs.lab4.main",
+        "peekOfCode": "OUT_DIR = ROOT / \"output\"\nOUT_DIR.mkdir(parents=True, exist_ok=True)\ndef asegurar_dataset() -> None:\n    \"\"\"Crea un CSV pequeño si no existe.\"\"\"\n    if DATA_PATH.exists():\n        return\n    # Dataset de ejemplo (20 filas, con algunos nulos deliberados)\n    df = pd.DataFrame({\n        \"id\": range(1, 21),\n        \"fecha\": pd.date_range(\"2024-01-01\", periods=20, freq=\"D\"),",
+        "detail": "labs.lab4.main",
         "documentation": {}
     }
 ]
