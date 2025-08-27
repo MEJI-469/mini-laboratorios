@@ -64,6 +64,30 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "wraps",
         "importPath": "functools",
         "description": "functools",
@@ -97,6 +121,54 @@
     },
     {
         "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -254,6 +326,22 @@
         "documentation": {}
     },
     {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -269,6 +357,96 @@
         "importPath": "duckdb",
         "description": "duckdb",
         "detail": "duckdb",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_spaces",
+        "importPath": "textutils",
+        "description": "textutils",
+        "isExtraImport": true,
+        "detail": "textutils",
+        "documentation": {}
+    },
+    {
+        "label": "word_count",
+        "importPath": "textutils",
+        "description": "textutils",
+        "isExtraImport": true,
+        "detail": "textutils",
+        "documentation": {}
+    },
+    {
+        "label": "is_palindrome",
+        "importPath": "textutils",
+        "description": "textutils",
+        "isExtraImport": true,
+        "detail": "textutils",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_spaces",
+        "importPath": "textutils",
+        "description": "textutils",
+        "isExtraImport": true,
+        "detail": "textutils",
+        "documentation": {}
+    },
+    {
+        "label": "word_count",
+        "importPath": "textutils",
+        "description": "textutils",
+        "isExtraImport": true,
+        "detail": "textutils",
+        "documentation": {}
+    },
+    {
+        "label": "is_palindrome",
+        "importPath": "textutils",
+        "description": "textutils",
+        "isExtraImport": true,
+        "detail": "textutils",
+        "documentation": {}
+    },
+    {
+        "label": "validate_csv",
+        "importPath": "csv_validation",
+        "description": "csv_validation",
+        "isExtraImport": true,
+        "detail": "csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "validate_csv",
+        "importPath": "csv_validation",
+        "description": "csv_validation",
+        "isExtraImport": true,
+        "detail": "csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "sys,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys.",
+        "description": "sys.",
+        "detail": "sys.",
         "documentation": {}
     },
     {
@@ -665,6 +843,195 @@
         "description": "labs.lab4.main",
         "peekOfCode": "OUT_DIR = ROOT / \"output\"\nOUT_DIR.mkdir(parents=True, exist_ok=True)\ndef asegurar_dataset() -> None:\n    \"\"\"Crea un CSV pequeño si no existe.\"\"\"\n    if DATA_PATH.exists():\n        return\n    # Dataset de ejemplo (20 filas, con algunos nulos deliberados)\n    df = pd.DataFrame({\n        \"id\": range(1, 21),\n        \"fecha\": pd.date_range(\"2024-01-01\", periods=20, freq=\"D\"),",
         "detail": "labs.lab4.main",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationResult",
+        "kind": 6,
+        "importPath": "labs.lab5.src.csv_validation",
+        "description": "labs.lab5.src.csv_validation",
+        "peekOfCode": "class ValidationResult:\n    rows: int\n    errors: List[str]\ndef read_csv_rows(path: Path) -> List[Dict[str, str]]:\n    \"\"\"\n    Lee un CSV con encabezado y devuelve lista de dicts (valores en str).\n    \"\"\"\n    with path.open(\"r\", newline=\"\", encoding=\"utf-8\") as f:\n        reader = csv.DictReader(f)\n        return list(reader)",
+        "detail": "labs.lab5.src.csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "read_csv_rows",
+        "kind": 2,
+        "importPath": "labs.lab5.src.csv_validation",
+        "description": "labs.lab5.src.csv_validation",
+        "peekOfCode": "def read_csv_rows(path: Path) -> List[Dict[str, str]]:\n    \"\"\"\n    Lee un CSV con encabezado y devuelve lista de dicts (valores en str).\n    \"\"\"\n    with path.open(\"r\", newline=\"\", encoding=\"utf-8\") as f:\n        reader = csv.DictReader(f)\n        return list(reader)\ndef validate_header(row_keys: Iterable[str]) -> List[str]:\n    \"\"\"\n    Valida que todas las columnas requeridas estén presentes.",
+        "detail": "labs.lab5.src.csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "validate_header",
+        "kind": 2,
+        "importPath": "labs.lab5.src.csv_validation",
+        "description": "labs.lab5.src.csv_validation",
+        "peekOfCode": "def validate_header(row_keys: Iterable[str]) -> List[str]:\n    \"\"\"\n    Valida que todas las columnas requeridas estén presentes.\n    \"\"\"\n    keys = set(row_keys)\n    missing = [c for c in REQUIRED_COLUMNS if c not in keys]\n    return [f\"Falta columna obligatoria: {c}\" for c in missing]\ndef validate_types_and_rules(rows: List[Dict[str, str]]) -> List[str]:\n    \"\"\"\n    Reglas mínimas:",
+        "detail": "labs.lab5.src.csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "validate_types_and_rules",
+        "kind": 2,
+        "importPath": "labs.lab5.src.csv_validation",
+        "description": "labs.lab5.src.csv_validation",
+        "peekOfCode": "def validate_types_and_rules(rows: List[Dict[str, str]]) -> List[str]:\n    \"\"\"\n    Reglas mínimas:\n    - id entero, único y >= 1\n    - name no vacío\n    - age entero >= 0\n    - score float >= 0\n    \"\"\"\n    errors: List[str] = []\n    seen_ids = set()",
+        "detail": "labs.lab5.src.csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "validate_csv",
+        "kind": 2,
+        "importPath": "labs.lab5.src.csv_validation",
+        "description": "labs.lab5.src.csv_validation",
+        "peekOfCode": "def validate_csv(path: Path) -> ValidationResult:\n    rows = read_csv_rows(path)\n    header_errors = validate_header(rows[0].keys() if rows else REQUIRED_COLUMNS)\n    data_errors = validate_types_and_rules(rows)\n    return ValidationResult(rows=len(rows), errors=header_errors + data_errors)",
+        "detail": "labs.lab5.src.csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "REQUIRED_COLUMNS",
+        "kind": 5,
+        "importPath": "labs.lab5.src.csv_validation",
+        "description": "labs.lab5.src.csv_validation",
+        "peekOfCode": "REQUIRED_COLUMNS = [\"id\", \"name\", \"age\", \"score\"]\n@dataclass\nclass ValidationResult:\n    rows: int\n    errors: List[str]\ndef read_csv_rows(path: Path) -> List[Dict[str, str]]:\n    \"\"\"\n    Lee un CSV con encabezado y devuelve lista de dicts (valores en str).\n    \"\"\"\n    with path.open(\"r\", newline=\"\", encoding=\"utf-8\") as f:",
+        "detail": "labs.lab5.src.csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_sample_csv",
+        "kind": 2,
+        "importPath": "labs.lab5.src.main",
+        "description": "labs.lab5.src.main",
+        "peekOfCode": "def ensure_sample_csv() -> None:\n    DATA_DIR.mkdir(parents=True, exist_ok=True)\n    if DATA_FILE.exists():\n        return\n    rows = [\n        {\"id\": \"1\", \"name\": \"Ana\",   \"age\": \"21\", \"score\": \"9.5\"},\n        {\"id\": \"2\", \"name\": \"Luis\",  \"age\": \"19\", \"score\": \"7.0\"},\n        {\"id\": \"3\", \"name\": \"Marta\", \"age\": \"22\", \"score\": \"10.0\"},\n    ]\n    with DATA_FILE.open(\"w\", newline=\"\", encoding=\"utf-8\") as f:",
+        "detail": "labs.lab5.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "demo_textutils",
+        "kind": 2,
+        "importPath": "labs.lab5.src.main",
+        "description": "labs.lab5.src.main",
+        "peekOfCode": "def demo_textutils() -> None:\n    print(\"=== Parte A — textutils ===\")\n    s = \"  Hola   mundo   de  pruebas  \"\n    print(\"normalize_spaces:\", normalize_spaces(s))\n    print(\"word_count:\", word_count(s))\n    print(\"is_palindrome('Anita lava la tina'):\", is_palindrome(\"Anita lava la tina\"))\ndef demo_csv_validation() -> None:\n    print(\"\\n=== Parte B — CSV validation ===\")\n    result = validate_csv(DATA_FILE)\n    print(\"Filas leídas:\", result.rows)",
+        "detail": "labs.lab5.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "demo_csv_validation",
+        "kind": 2,
+        "importPath": "labs.lab5.src.main",
+        "description": "labs.lab5.src.main",
+        "peekOfCode": "def demo_csv_validation() -> None:\n    print(\"\\n=== Parte B — CSV validation ===\")\n    result = validate_csv(DATA_FILE)\n    print(\"Filas leídas:\", result.rows)\n    if result.errors:\n        print(\"[ERRORES]\")\n        for e in result.errors:\n            print(\"-\", e)\n    else:\n        print(\"Validación OK (sin errores).\")",
+        "detail": "labs.lab5.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "labs.lab5.src.main",
+        "description": "labs.lab5.src.main",
+        "peekOfCode": "def main() -> None:\n    ensure_sample_csv()\n    demo_textutils()\n    demo_csv_validation()\n    print(\"\\n✅ Lab 5 ejecutado correctamente desde main.py\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "labs.lab5.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_DIR",
+        "kind": 5,
+        "importPath": "labs.lab5.src.main",
+        "description": "labs.lab5.src.main",
+        "peekOfCode": "DATA_DIR = Path(__file__).resolve().parents[1] / \"data\"\nDATA_FILE = DATA_DIR / \"sample.csv\"\ndef ensure_sample_csv() -> None:\n    DATA_DIR.mkdir(parents=True, exist_ok=True)\n    if DATA_FILE.exists():\n        return\n    rows = [\n        {\"id\": \"1\", \"name\": \"Ana\",   \"age\": \"21\", \"score\": \"9.5\"},\n        {\"id\": \"2\", \"name\": \"Luis\",  \"age\": \"19\", \"score\": \"7.0\"},\n        {\"id\": \"3\", \"name\": \"Marta\", \"age\": \"22\", \"score\": \"10.0\"},",
+        "detail": "labs.lab5.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "DATA_FILE",
+        "kind": 5,
+        "importPath": "labs.lab5.src.main",
+        "description": "labs.lab5.src.main",
+        "peekOfCode": "DATA_FILE = DATA_DIR / \"sample.csv\"\ndef ensure_sample_csv() -> None:\n    DATA_DIR.mkdir(parents=True, exist_ok=True)\n    if DATA_FILE.exists():\n        return\n    rows = [\n        {\"id\": \"1\", \"name\": \"Ana\",   \"age\": \"21\", \"score\": \"9.5\"},\n        {\"id\": \"2\", \"name\": \"Luis\",  \"age\": \"19\", \"score\": \"7.0\"},\n        {\"id\": \"3\", \"name\": \"Marta\", \"age\": \"22\", \"score\": \"10.0\"},\n    ]",
+        "detail": "labs.lab5.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "normalize_spaces",
+        "kind": 2,
+        "importPath": "labs.lab5.src.textutils",
+        "description": "labs.lab5.src.textutils",
+        "peekOfCode": "def normalize_spaces(s: str) -> str:\n    \"\"\"\n    Colapsa espacios múltiples, quita espacios al inicio/fin.\n    \"\"\"\n    if not isinstance(s, str):\n        raise TypeError(\"normalize_spaces() espera str\")\n    return \" \".join(s.split())\ndef word_count(s: str) -> int:\n    \"\"\"\n    Cuenta palabras separadas por espacio tras normalizar.",
+        "detail": "labs.lab5.src.textutils",
+        "documentation": {}
+    },
+    {
+        "label": "word_count",
+        "kind": 2,
+        "importPath": "labs.lab5.src.textutils",
+        "description": "labs.lab5.src.textutils",
+        "peekOfCode": "def word_count(s: str) -> int:\n    \"\"\"\n    Cuenta palabras separadas por espacio tras normalizar.\n    \"\"\"\n    if not isinstance(s, str):\n        raise TypeError(\"word_count() espera str\")\n    s = normalize_spaces(s)\n    if s == \"\":\n        return 0\n    return len(s.split(\" \"))",
+        "detail": "labs.lab5.src.textutils",
+        "documentation": {}
+    },
+    {
+        "label": "is_palindrome",
+        "kind": 2,
+        "importPath": "labs.lab5.src.textutils",
+        "description": "labs.lab5.src.textutils",
+        "peekOfCode": "def is_palindrome(s: str, ignore_case: bool = True, ignore_spaces: bool = True) -> bool:\n    \"\"\"\n    Determina si s es palíndromo.\n    - ignore_case: ignora mayúsculas/minúsculas\n    - ignore_spaces: ignora espacios\n    \"\"\"\n    if not isinstance(s, str):\n        raise TypeError(\"is_palindrome() espera str\")\n    t = s\n    if ignore_spaces:",
+        "detail": "labs.lab5.src.textutils",
+        "documentation": {}
+    },
+    {
+        "label": "test_valid_dataset",
+        "kind": 2,
+        "importPath": "labs.lab5.tests.test_csv_validation",
+        "description": "labs.lab5.tests.test_csv_validation",
+        "peekOfCode": "def test_valid_dataset(tmp_path: pathlib.Path):\n    p = tmp_path / \"ok.csv\"\n    rows = [\n        {\"id\": \"1\", \"name\": \"Ana\", \"age\": \"20\", \"score\": \"10.5\"},\n        {\"id\": \"2\", \"name\": \"Luis\", \"age\": \"0\",  \"score\": \"0\"},\n    ]\n    _write_csv(p, rows)\n    result = validate_csv(p)\n    assert result.rows == 2\n    assert result.errors == []",
+        "detail": "labs.lab5.tests.test_csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "test_invalid_dataset",
+        "kind": 2,
+        "importPath": "labs.lab5.tests.test_csv_validation",
+        "description": "labs.lab5.tests.test_csv_validation",
+        "peekOfCode": "def test_invalid_dataset(tmp_path: pathlib.Path):\n    p = tmp_path / \"bad.csv\"\n    rows = [\n        {\"id\": \"1\", \"name\": \"Ana\",  \"age\": \"-1\", \"score\": \"1.0\"},   # age negativo\n        {\"id\": \"1\", \"name\": \"   \",  \"age\": \"x\",  \"score\": \"-2.0\"},  # id duplicado, name vacío, age inválido, score negativo\n        {\"id\": \"y\", \"name\": \"M\",    \"age\": \"3\",  \"score\": \"z\"},     # id inválido, score inválido\n    ]\n    _write_csv(p, rows)\n    result = validate_csv(p)\n    assert result.rows == 3",
+        "detail": "labs.lab5.tests.test_csv_validation",
+        "documentation": {}
+    },
+    {
+        "label": "test_normalize_spaces_basic",
+        "kind": 2,
+        "importPath": "labs.lab5.tests.test_textutils",
+        "description": "labs.lab5.tests.test_textutils",
+        "peekOfCode": "def test_normalize_spaces_basic():\n    assert normalize_spaces(\"  hola   mundo  \") == \"hola mundo\"\ndef test_word_count():\n    assert word_count(\"  hola   mundo  \") == 2\n    assert word_count(\"\") == 0\ndef test_is_palindrome_defaults():\n    assert is_palindrome(\"Anita lava la tina\")  # True con ignores por defecto\n    assert not is_palindrome(\"hola\")\ndef test_type_errors():\n    with pytest.raises(TypeError):",
+        "detail": "labs.lab5.tests.test_textutils",
+        "documentation": {}
+    },
+    {
+        "label": "test_word_count",
+        "kind": 2,
+        "importPath": "labs.lab5.tests.test_textutils",
+        "description": "labs.lab5.tests.test_textutils",
+        "peekOfCode": "def test_word_count():\n    assert word_count(\"  hola   mundo  \") == 2\n    assert word_count(\"\") == 0\ndef test_is_palindrome_defaults():\n    assert is_palindrome(\"Anita lava la tina\")  # True con ignores por defecto\n    assert not is_palindrome(\"hola\")\ndef test_type_errors():\n    with pytest.raises(TypeError):\n        normalize_spaces(123)  # type: ignore[arg-type]\n    with pytest.raises(TypeError):",
+        "detail": "labs.lab5.tests.test_textutils",
+        "documentation": {}
+    },
+    {
+        "label": "test_is_palindrome_defaults",
+        "kind": 2,
+        "importPath": "labs.lab5.tests.test_textutils",
+        "description": "labs.lab5.tests.test_textutils",
+        "peekOfCode": "def test_is_palindrome_defaults():\n    assert is_palindrome(\"Anita lava la tina\")  # True con ignores por defecto\n    assert not is_palindrome(\"hola\")\ndef test_type_errors():\n    with pytest.raises(TypeError):\n        normalize_spaces(123)  # type: ignore[arg-type]\n    with pytest.raises(TypeError):\n        word_count(None)  # type: ignore[arg-type]\n    with pytest.raises(TypeError):\n        is_palindrome(3.14)  # type: ignore[arg-type]",
+        "detail": "labs.lab5.tests.test_textutils",
+        "documentation": {}
+    },
+    {
+        "label": "test_type_errors",
+        "kind": 2,
+        "importPath": "labs.lab5.tests.test_textutils",
+        "description": "labs.lab5.tests.test_textutils",
+        "peekOfCode": "def test_type_errors():\n    with pytest.raises(TypeError):\n        normalize_spaces(123)  # type: ignore[arg-type]\n    with pytest.raises(TypeError):\n        word_count(None)  # type: ignore[arg-type]\n    with pytest.raises(TypeError):\n        is_palindrome(3.14)  # type: ignore[arg-type]",
+        "detail": "labs.lab5.tests.test_textutils",
         "documentation": {}
     }
 ]
