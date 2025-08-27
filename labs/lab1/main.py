@@ -18,14 +18,18 @@ from typing import Any, Callable, Iterable, Tuple, List, Dict
 # =========================
 # A.1 – Funciones como valores + *args y **kwargs
 
+
 def saludar(nombre: str) -> str:
     return f"Hola, {nombre}"
+
 
 def despedir(nombre: str) -> str:
     return f"Adiós, {nombre}"
 
+
 def aplaudir(nombre: str, veces: int = 3, emoji: str = "👏") -> str:
     return f"{nombre}: " + (emoji * veces)
+
 
 # Diccionario que mapea nombres a funciones (funciones como valores)
 acciones: Dict[str, Callable[..., Any]] = {
@@ -33,6 +37,7 @@ acciones: Dict[str, Callable[..., Any]] = {
     "despedir": despedir,
     "aplaudir": aplaudir,
 }
+
 
 def ejecutar(accion: str, *args, **kwargs) -> Any:
     """
@@ -49,13 +54,16 @@ def ejecutar(accion: str, *args, **kwargs) -> Any:
 
 # A.2 – Funciones internas y closures
 
+
 def crear_descuento(porcentaje: float) -> Callable[[float], float]:
     """
     Devuelve una función que aplica el descuento 'porcentaje' (por ejemplo 0.10 = 10%)
     sobre un precio recibido.
     """
+
     def aplicar(precio: float) -> float:
         return round(precio * (1 - porcentaje), 2)
+
     return aplicar
 
 
@@ -63,6 +71,7 @@ def crear_descuento(porcentaje: float) -> Callable[[float], float]:
 # MÓDULO B — EXCEPCIONES
 # =========================
 # B.1 – Validación de entrada (sin I/O de archivos)
+
 
 def parsear_enteros(entradas: List[str]) -> Tuple[List[int], List[str]]:
     """
@@ -82,9 +91,12 @@ def parsear_enteros(entradas: List[str]) -> Tuple[List[int], List[str]]:
 
 # B.2 – Excepciones personalizadas y raise
 
+
 class CantidadInvalida(Exception):
     """Se lanza cuando la cantidad es menor o igual a 0."""
+
     pass
+
 
 def calcular_total(precio_unitario: float, cantidad: int) -> float:
     """
@@ -104,11 +116,13 @@ def calcular_total(precio_unitario: float, cantidad: int) -> float:
 # =========================
 # C.1 – Decorador de validación
 
+
 def requiere_positivos(func: Callable[..., Any]) -> Callable[..., Any]:
     """
     Verifica que todos los argumentos numéricos (posicionales y nombrados)
     sean > 0; si no, lanza ValueError con un mensaje útil.
     """
+
     @wraps(func)
     def wrapper(*args, **kwargs):
         def es_numero(x: Any) -> bool:
@@ -118,7 +132,7 @@ def requiere_positivos(func: Callable[..., Any]) -> Callable[..., Any]:
         for idx, a in enumerate(args):
             if es_numero(a) and a <= 0:
                 raise ValueError(
-                    f"Argumento posicional #{idx+1} de '{func.__name__}' debe ser > 0. Recibido: {a}"
+                    f"Argumento posicional #{idx + 1} de '{func.__name__}' debe ser > 0. Recibido: {a}"
                 )
 
         # Revisar **kwargs
@@ -129,7 +143,9 @@ def requiere_positivos(func: Callable[..., Any]) -> Callable[..., Any]:
                 )
 
         return func(*args, **kwargs)
+
     return wrapper
+
 
 @requiere_positivos
 def calcular_descuento(precio: float, porcentaje: float) -> float:
@@ -138,6 +154,7 @@ def calcular_descuento(precio: float, porcentaje: float) -> float:
     Requiere que ambos sean positivos (> 0).
     """
     return round(precio * (1 - porcentaje), 2)
+
 
 @requiere_positivos
 def escala(valor: float, factor: float) -> float:
@@ -148,6 +165,7 @@ def escala(valor: float, factor: float) -> float:
 # =========================
 # DEMOS / AUTOPRUEBAS SENCILLAS
 # =========================
+
 
 def _demo_modulo_a():
     print("\n=== Módulo A ===")

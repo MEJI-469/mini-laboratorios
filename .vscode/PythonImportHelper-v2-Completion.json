@@ -1,0 +1,564 @@
+[
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "unicodedata",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unicodedata",
+        "description": "unicodedata",
+        "detail": "unicodedata",
+        "documentation": {}
+    },
+    {
+        "label": "pprint",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "modulo_cadenas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "modulo_cadenas",
+        "description": "modulo_cadenas",
+        "detail": "modulo_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "normalize",
+        "importPath": "textkit",
+        "description": "textkit",
+        "isExtraImport": true,
+        "detail": "textkit",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "textkit",
+        "description": "textkit",
+        "isExtraImport": true,
+        "detail": "textkit",
+        "documentation": {}
+    },
+    {
+        "label": "is_slug",
+        "importPath": "textkit",
+        "description": "textkit",
+        "isExtraImport": true,
+        "detail": "textkit",
+        "documentation": {}
+    },
+    {
+        "label": "require_non_empty",
+        "importPath": "textkit",
+        "description": "textkit",
+        "isExtraImport": true,
+        "detail": "textkit",
+        "documentation": {}
+    },
+    {
+        "label": "textkit.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textkit.validators",
+        "description": "textkit.validators",
+        "detail": "textkit.validators",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "importPath": "operaciones",
+        "description": "operaciones",
+        "isExtraImport": true,
+        "detail": "operaciones",
+        "documentation": {}
+    },
+    {
+        "label": "division",
+        "importPath": "operaciones",
+        "description": "operaciones",
+        "isExtraImport": true,
+        "detail": "operaciones",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "importPath": "labs.lab3.src.operaciones",
+        "description": "labs.lab3.src.operaciones",
+        "isExtraImport": true,
+        "detail": "labs.lab3.src.operaciones",
+        "documentation": {}
+    },
+    {
+        "label": "division",
+        "importPath": "labs.lab3.src.operaciones",
+        "description": "labs.lab3.src.operaciones",
+        "isExtraImport": true,
+        "detail": "labs.lab3.src.operaciones",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "CantidadInvalida",
+        "kind": 6,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "class CantidadInvalida(Exception):\n    \"\"\"Se lanza cuando la cantidad es menor o igual a 0.\"\"\"\n    pass\ndef calcular_total(precio_unitario: float, cantidad: int) -> float:\n    \"\"\"\n    - Lanza CantidadInvalida si cantidad <= 0\n    - Lanza ValueError si precio_unitario < 0\n    - Devuelve precio_unitario * cantidad en caso válido\n    \"\"\"\n    if cantidad <= 0:",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "saludar",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def saludar(nombre: str) -> str:\n    return f\"Hola, {nombre}\"\ndef despedir(nombre: str) -> str:\n    return f\"Adiós, {nombre}\"\ndef aplaudir(nombre: str, veces: int = 3, emoji: str = \"👏\") -> str:\n    return f\"{nombre}: \" + (emoji * veces)\n# Diccionario que mapea nombres a funciones (funciones como valores)\nacciones: Dict[str, Callable[..., Any]] = {\n    \"saludar\": saludar,\n    \"despedir\": despedir,",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "despedir",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def despedir(nombre: str) -> str:\n    return f\"Adiós, {nombre}\"\ndef aplaudir(nombre: str, veces: int = 3, emoji: str = \"👏\") -> str:\n    return f\"{nombre}: \" + (emoji * veces)\n# Diccionario que mapea nombres a funciones (funciones como valores)\nacciones: Dict[str, Callable[..., Any]] = {\n    \"saludar\": saludar,\n    \"despedir\": despedir,\n    \"aplaudir\": aplaudir,\n}",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "aplaudir",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def aplaudir(nombre: str, veces: int = 3, emoji: str = \"👏\") -> str:\n    return f\"{nombre}: \" + (emoji * veces)\n# Diccionario que mapea nombres a funciones (funciones como valores)\nacciones: Dict[str, Callable[..., Any]] = {\n    \"saludar\": saludar,\n    \"despedir\": despedir,\n    \"aplaudir\": aplaudir,\n}\ndef ejecutar(accion: str, *args, **kwargs) -> Any:\n    \"\"\"",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "ejecutar",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def ejecutar(accion: str, *args, **kwargs) -> Any:\n    \"\"\"\n    Busca la función por nombre en 'acciones' y la ejecuta con *args/**kwargs.\n    Lanza ValueError si la acción no existe.\n    \"\"\"\n    try:\n        funcion = acciones[accion]\n    except KeyError:\n        disponibles = \", \".join(sorted(acciones.keys()))\n        raise ValueError(f\"Acción desconocida: '{accion}'. Opciones: {disponibles}\")",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "crear_descuento",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def crear_descuento(porcentaje: float) -> Callable[[float], float]:\n    \"\"\"\n    Devuelve una función que aplica el descuento 'porcentaje' (por ejemplo 0.10 = 10%)\n    sobre un precio recibido.\n    \"\"\"\n    def aplicar(precio: float) -> float:\n        return round(precio * (1 - porcentaje), 2)\n    return aplicar\n# =========================\n# MÓDULO B — EXCEPCIONES",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "parsear_enteros",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def parsear_enteros(entradas: List[str]) -> Tuple[List[int], List[str]]:\n    \"\"\"\n    Convierte cada string a entero. Si alguno falla, registra un mensaje de error.\n    Retorna (valores_convertidos, mensajes_error).\n    El proceso continúa aunque haya errores.\n    \"\"\"\n    valores: List[int] = []\n    errores: List[str] = []\n    for i, s in enumerate(entradas):\n        try:",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "calcular_total",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def calcular_total(precio_unitario: float, cantidad: int) -> float:\n    \"\"\"\n    - Lanza CantidadInvalida si cantidad <= 0\n    - Lanza ValueError si precio_unitario < 0\n    - Devuelve precio_unitario * cantidad en caso válido\n    \"\"\"\n    if cantidad <= 0:\n        raise CantidadInvalida(f\"La cantidad debe ser > 0. Recibido: {cantidad}\")\n    if precio_unitario < 0:\n        raise ValueError(f\"El precio unitario no puede ser negativo. Recibido: {precio_unitario}\")",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "requiere_positivos",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def requiere_positivos(func: Callable[..., Any]) -> Callable[..., Any]:\n    \"\"\"\n    Verifica que todos los argumentos numéricos (posicionales y nombrados)\n    sean > 0; si no, lanza ValueError con un mensaje útil.\n    \"\"\"\n    @wraps(func)\n    def wrapper(*args, **kwargs):\n        def es_numero(x: Any) -> bool:\n            return isinstance(x, (int, float)) and not isinstance(x, bool)\n        # Revisar *args",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "calcular_descuento",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def calcular_descuento(precio: float, porcentaje: float) -> float:\n    \"\"\"\n    Aplica un descuento (por ejemplo 0.2 = 20%) a 'precio'.\n    Requiere que ambos sean positivos (> 0).\n    \"\"\"\n    return round(precio * (1 - porcentaje), 2)\n@requiere_positivos\ndef escala(valor: float, factor: float) -> float:\n    \"\"\"Multiplica 'valor' por 'factor'. Ambos deben ser > 0.\"\"\"\n    return valor * factor",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "escala",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def escala(valor: float, factor: float) -> float:\n    \"\"\"Multiplica 'valor' por 'factor'. Ambos deben ser > 0.\"\"\"\n    return valor * factor\n# =========================\n# DEMOS / AUTOPRUEBAS SENCILLAS\n# =========================\ndef _demo_modulo_a():\n    print(\"\\n=== Módulo A ===\")\n    # A.1\n    print(\"A.1 – ejecutar('saludar', 'Ana'):\")",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "labs.lab1.main",
+        "description": "labs.lab1.main",
+        "peekOfCode": "def main():\n    _demo_modulo_a()\n    _demo_modulo_b()\n    _demo_modulo_c()\n    print(\"\\n✅ Todas las verificaciones básicas del Lab 1 pasaron.\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "labs.lab1.main",
+        "documentation": {}
+    },
+    {
+        "label": "normalize",
+        "kind": 2,
+        "importPath": "labs.lab2.textkit.cleaners",
+        "description": "labs.lab2.textkit.cleaners",
+        "peekOfCode": "def normalize(s: str) -> str:\n    \"\"\"Similar a normalizar(): sin acentos, minúsculas, espacios colapsados.\"\"\"\n    if not isinstance(s, str):\n        raise TypeError(\"normalize() espera un str\")\n    s = _strip_accents(s).lower().strip()\n    s = \" \".join(s.split())\n    return s\ndef slugify(s: str, max_len: int = 60) -> str:\n    \"\"\"Slug simple reutilizable en el paquete.\"\"\"\n    s = normalize(s)",
+        "detail": "labs.lab2.textkit.cleaners",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "kind": 2,
+        "importPath": "labs.lab2.textkit.cleaners",
+        "description": "labs.lab2.textkit.cleaners",
+        "peekOfCode": "def slugify(s: str, max_len: int = 60) -> str:\n    \"\"\"Slug simple reutilizable en el paquete.\"\"\"\n    s = normalize(s)\n    s = s.replace(\"_\", \"-\").replace(\" \", \"-\")\n    s = re.sub(r\"[^a-z0-9\\-]\", \"\", s)\n    s = re.sub(r\"-{2,}\", \"-\", s).strip(\"-\")\n    if not s:\n        raise ValueError(\"slugify(): quedó vacío\")\n    return s[:max_len]",
+        "detail": "labs.lab2.textkit.cleaners",
+        "documentation": {}
+    },
+    {
+        "label": "__all__",
+        "kind": 5,
+        "importPath": "labs.lab2.textkit.cleaners",
+        "description": "labs.lab2.textkit.cleaners",
+        "peekOfCode": "__all__ = [\"normalize\", \"slugify\"]\ndef _strip_accents(s: str) -> str:\n    nf = unicodedata.normalize(\"NFD\", s)\n    return \"\".join(ch for ch in nf if unicodedata.category(ch) != \"Mn\")\ndef normalize(s: str) -> str:\n    \"\"\"Similar a normalizar(): sin acentos, minúsculas, espacios colapsados.\"\"\"\n    if not isinstance(s, str):\n        raise TypeError(\"normalize() espera un str\")\n    s = _strip_accents(s).lower().strip()\n    s = \" \".join(s.split())",
+        "detail": "labs.lab2.textkit.cleaners",
+        "documentation": {}
+    },
+    {
+        "label": "is_slug",
+        "kind": 2,
+        "importPath": "labs.lab2.textkit.validators",
+        "description": "labs.lab2.textkit.validators",
+        "peekOfCode": "def is_slug(s: str) -> bool:\n    \"\"\"Valida si 's' es un slug válido.\"\"\"\n    return bool(_SLUG.fullmatch(s))\ndef require_non_empty(s: str) -> str:\n    \"\"\"Exige que el texto no sea vacío (tras normalize + strip).\"\"\"\n    if not isinstance(s, str):\n        raise TypeError(\"require_non_empty() espera un str\")\n    if normalize(s) == \"\":\n        raise ValueError(\"El texto no debe ser vacío\")\n    return s",
+        "detail": "labs.lab2.textkit.validators",
+        "documentation": {}
+    },
+    {
+        "label": "require_non_empty",
+        "kind": 2,
+        "importPath": "labs.lab2.textkit.validators",
+        "description": "labs.lab2.textkit.validators",
+        "peekOfCode": "def require_non_empty(s: str) -> str:\n    \"\"\"Exige que el texto no sea vacío (tras normalize + strip).\"\"\"\n    if not isinstance(s, str):\n        raise TypeError(\"require_non_empty() espera un str\")\n    if normalize(s) == \"\":\n        raise ValueError(\"El texto no debe ser vacío\")\n    return s",
+        "detail": "labs.lab2.textkit.validators",
+        "documentation": {}
+    },
+    {
+        "label": "__all__",
+        "kind": 5,
+        "importPath": "labs.lab2.textkit.validators",
+        "description": "labs.lab2.textkit.validators",
+        "peekOfCode": "__all__ = [\"is_slug\", \"require_non_empty\"]\n_SLUG = re.compile(r\"^[a-z0-9]+(?:-[a-z0-9]+)*$\")\ndef is_slug(s: str) -> bool:\n    \"\"\"Valida si 's' es un slug válido.\"\"\"\n    return bool(_SLUG.fullmatch(s))\ndef require_non_empty(s: str) -> str:\n    \"\"\"Exige que el texto no sea vacío (tras normalize + strip).\"\"\"\n    if not isinstance(s, str):\n        raise TypeError(\"require_non_empty() espera un str\")\n    if normalize(s) == \"\":",
+        "detail": "labs.lab2.textkit.validators",
+        "documentation": {}
+    },
+    {
+        "label": "_SLUG",
+        "kind": 5,
+        "importPath": "labs.lab2.textkit.validators",
+        "description": "labs.lab2.textkit.validators",
+        "peekOfCode": "_SLUG = re.compile(r\"^[a-z0-9]+(?:-[a-z0-9]+)*$\")\ndef is_slug(s: str) -> bool:\n    \"\"\"Valida si 's' es un slug válido.\"\"\"\n    return bool(_SLUG.fullmatch(s))\ndef require_non_empty(s: str) -> str:\n    \"\"\"Exige que el texto no sea vacío (tras normalize + strip).\"\"\"\n    if not isinstance(s, str):\n        raise TypeError(\"require_non_empty() espera un str\")\n    if normalize(s) == \"\":\n        raise ValueError(\"El texto no debe ser vacío\")",
+        "detail": "labs.lab2.textkit.validators",
+        "documentation": {}
+    },
+    {
+        "label": "demo_parte_a",
+        "kind": 2,
+        "importPath": "labs.lab2.main",
+        "description": "labs.lab2.main",
+        "peekOfCode": "def demo_parte_a():\n    print(\"\\n=== PARTE A — MÓDULO 'modulo_cadenas' ===\")\n    texto = \"  ¡Hola Mundo Ágil!  \"\n    print(\"normalizar:\", mc.normalizar(texto))\n    print(\"slugify:\", mc.slugify(texto))\n    s_ok = \"hola-mundo-agil\"\n    s_bad = \"Hola Mundo!!!\"\n    print(\"es_slug(s_ok):\", mc.es_slug(s_ok))\n    print(\"es_slug(s_bad):\", mc.es_slug(s_bad))\n    # Caso límite (error controlado)",
+        "detail": "labs.lab2.main",
+        "documentation": {}
+    },
+    {
+        "label": "demo_parte_b",
+        "kind": 2,
+        "importPath": "labs.lab2.main",
+        "description": "labs.lab2.main",
+        "peekOfCode": "def demo_parte_b():\n    print(\"\\n=== PARTE B — PAQUETE 'textkit' ===\")\n    # Usando API pública reexportada por __init__.py (importación absoluta)\n    texto = \"  Programación en PYTHON — Módulos y Paquetes  \"\n    print(\"pkg_normalize:\", pkg_normalize(texto))\n    slug = pkg_slugify(texto)\n    print(\"pkg_slugify:\", slug)\n    print(\"pkg_is_slug(slug):\", pkg_is_slug(slug))\n    # Caso límite (error controlado)\n    try:",
+        "detail": "labs.lab2.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "labs.lab2.main",
+        "description": "labs.lab2.main",
+        "peekOfCode": "def main():\n    demo_parte_a()\n    demo_parte_b()\n    print(\"\\n✅ Lab 2 ejecutado correctamente.\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "labs.lab2.main",
+        "documentation": {}
+    },
+    {
+        "label": "normalizar",
+        "kind": 2,
+        "importPath": "labs.lab2.modulo_cadenas",
+        "description": "labs.lab2.modulo_cadenas",
+        "peekOfCode": "def normalizar(texto: str) -> str:\n    \"\"\"\n    - Quita acentos\n    - Convierte a minúsculas\n    - Colapsa espacios en uno solo\n    - Elimina espacios al inicio/fin\n    \"\"\"\n    if not isinstance(texto, str):\n        raise TypeError(\"normalizar() espera un str\")\n    texto = _quitar_acentos(texto).lower().strip()",
+        "detail": "labs.lab2.modulo_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "kind": 2,
+        "importPath": "labs.lab2.modulo_cadenas",
+        "description": "labs.lab2.modulo_cadenas",
+        "peekOfCode": "def slugify(texto: str, max_len: int = 60) -> str:\n    \"\"\"\n    Convierte un texto en 'slug' (kebab-case):\n    - normaliza (sin acentos, minúsculas)\n    - reemplaza espacios/guiones bajos por '-'\n    - remueve caracteres no alfanuméricos ni '-'\n    - colapsa guiones repetidos y recorta a max_len\n    - lanza ValueError si queda vacío\n    \"\"\"\n    base = normalizar(texto)",
+        "detail": "labs.lab2.modulo_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "es_slug",
+        "kind": 2,
+        "importPath": "labs.lab2.modulo_cadenas",
+        "description": "labs.lab2.modulo_cadenas",
+        "peekOfCode": "def es_slug(texto: str) -> bool:\n    \"\"\"Valida si el texto cumple el patrón de slug simple.\"\"\"\n    return bool(_SLUG_RE.fullmatch(texto))\ndef requerir_no_vacio(texto: str) -> str:\n    \"\"\"\n    Verifica que el string no esté vacío (tras strip()).\n    Lanza ValueError con mensaje claro si no cumple.\n    \"\"\"\n    if not isinstance(texto, str):\n        raise TypeError(\"requerir_no_vacio() espera un str\")",
+        "detail": "labs.lab2.modulo_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "requerir_no_vacio",
+        "kind": 2,
+        "importPath": "labs.lab2.modulo_cadenas",
+        "description": "labs.lab2.modulo_cadenas",
+        "peekOfCode": "def requerir_no_vacio(texto: str) -> str:\n    \"\"\"\n    Verifica que el string no esté vacío (tras strip()).\n    Lanza ValueError con mensaje claro si no cumple.\n    \"\"\"\n    if not isinstance(texto, str):\n        raise TypeError(\"requerir_no_vacio() espera un str\")\n    if texto.strip() == \"\":\n        raise ValueError(\"El texto no debe estar vacío\")\n    return texto",
+        "detail": "labs.lab2.modulo_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "__all__",
+        "kind": 5,
+        "importPath": "labs.lab2.modulo_cadenas",
+        "description": "labs.lab2.modulo_cadenas",
+        "peekOfCode": "__all__ = [\"normalizar\", \"slugify\", \"es_slug\", \"requerir_no_vacio\"]\ndef _quitar_acentos(texto: str) -> str:\n    nfkd = unicodedata.normalize(\"NFD\", texto)\n    return \"\".join(ch for ch in nfkd if unicodedata.category(ch) != \"Mn\")\ndef normalizar(texto: str) -> str:\n    \"\"\"\n    - Quita acentos\n    - Convierte a minúsculas\n    - Colapsa espacios en uno solo\n    - Elimina espacios al inicio/fin",
+        "detail": "labs.lab2.modulo_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "_SLUG_RE",
+        "kind": 5,
+        "importPath": "labs.lab2.modulo_cadenas",
+        "description": "labs.lab2.modulo_cadenas",
+        "peekOfCode": "_SLUG_RE = re.compile(r\"^[a-z0-9]+(?:-[a-z0-9]+)*$\")\ndef es_slug(texto: str) -> bool:\n    \"\"\"Valida si el texto cumple el patrón de slug simple.\"\"\"\n    return bool(_SLUG_RE.fullmatch(texto))\ndef requerir_no_vacio(texto: str) -> str:\n    \"\"\"\n    Verifica que el string no esté vacío (tras strip()).\n    Lanza ValueError con mensaje claro si no cumple.\n    \"\"\"\n    if not isinstance(texto, str):",
+        "detail": "labs.lab2.modulo_cadenas",
+        "documentation": {}
+    },
+    {
+        "label": "demo",
+        "kind": 2,
+        "importPath": "labs.lab3.src.main",
+        "description": "labs.lab3.src.main",
+        "peekOfCode": "def demo():\n    print(\"=== Demo Lab 3: operaciones ===\")\n    print(\"suma(10, 5) ->\", suma(10, 5))\n    try:\n        print(\"division(10, 2) ->\", division(10, 2))\n        print(\"division(10, 0) -> (debe fallar)\")\n        print(division(10, 0))  # caso límite: dispara ValueError\n    except ValueError as e:\n        print(\"OK, error controlado:\", e)\ndef main():",
+        "detail": "labs.lab3.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "labs.lab3.src.main",
+        "description": "labs.lab3.src.main",
+        "peekOfCode": "def main():\n    demo()\n    print(\"\\n✅ Lab 3 ejecutado correctamente desde main.py\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "labs.lab3.src.main",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "labs.lab3.src.operaciones",
+        "description": "labs.lab3.src.operaciones",
+        "peekOfCode": "def suma(a: float, b: float) -> float:\n    \"\"\"Suma dos números (float|int) y retorna float.\"\"\"\n    return float(a) + float(b)\ndef division(a: float, b: float) -> float:\n    \"\"\"Divide a entre b. Lanza ValueError si b == 0.\"\"\"\n    if b == 0:\n        raise ValueError(\"La división por cero no está permitida.\")\n    return float(a) / float(b)",
+        "detail": "labs.lab3.src.operaciones",
+        "documentation": {}
+    },
+    {
+        "label": "division",
+        "kind": 2,
+        "importPath": "labs.lab3.src.operaciones",
+        "description": "labs.lab3.src.operaciones",
+        "peekOfCode": "def division(a: float, b: float) -> float:\n    \"\"\"Divide a entre b. Lanza ValueError si b == 0.\"\"\"\n    if b == 0:\n        raise ValueError(\"La división por cero no está permitida.\")\n    return float(a) / float(b)",
+        "detail": "labs.lab3.src.operaciones",
+        "documentation": {}
+    },
+    {
+        "label": "suma",
+        "kind": 2,
+        "importPath": "labs.lab3.src.operaciones_buggy",
+        "description": "labs.lab3.src.operaciones_buggy",
+        "peekOfCode": "def suma(a, b):  # sin anotaciones\n    return a + b\ndef division(a, b):  # sin anotaciones; devuelve None a veces\n    if b == 0:\n        return None  # mypy: retorno inconsistente / Optional no declarado\n    return a / b",
+        "detail": "labs.lab3.src.operaciones_buggy",
+        "documentation": {}
+    },
+    {
+        "label": "division",
+        "kind": 2,
+        "importPath": "labs.lab3.src.operaciones_buggy",
+        "description": "labs.lab3.src.operaciones_buggy",
+        "peekOfCode": "def division(a, b):  # sin anotaciones; devuelve None a veces\n    if b == 0:\n        return None  # mypy: retorno inconsistente / Optional no declarado\n    return a / b",
+        "detail": "labs.lab3.src.operaciones_buggy",
+        "documentation": {}
+    },
+    {
+        "label": "test_suma",
+        "kind": 2,
+        "importPath": "labs.lab3.tests.test_operaciones",
+        "description": "labs.lab3.tests.test_operaciones",
+        "peekOfCode": "def test_suma():\n    assert suma(2, 3) == 5.0\ndef test_division_ok():\n    assert division(10, 2) == 5.0\ndef test_division_cero():\n    with pytest.raises(ValueError):\n        division(1, 0)",
+        "detail": "labs.lab3.tests.test_operaciones",
+        "documentation": {}
+    },
+    {
+        "label": "test_division_ok",
+        "kind": 2,
+        "importPath": "labs.lab3.tests.test_operaciones",
+        "description": "labs.lab3.tests.test_operaciones",
+        "peekOfCode": "def test_division_ok():\n    assert division(10, 2) == 5.0\ndef test_division_cero():\n    with pytest.raises(ValueError):\n        division(1, 0)",
+        "detail": "labs.lab3.tests.test_operaciones",
+        "documentation": {}
+    },
+    {
+        "label": "test_division_cero",
+        "kind": 2,
+        "importPath": "labs.lab3.tests.test_operaciones",
+        "description": "labs.lab3.tests.test_operaciones",
+        "peekOfCode": "def test_division_cero():\n    with pytest.raises(ValueError):\n        division(1, 0)",
+        "detail": "labs.lab3.tests.test_operaciones",
+        "documentation": {}
+    }
+]

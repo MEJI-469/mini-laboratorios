@@ -1,0 +1,22 @@
+[project]
+name = "mini-laboratorios"
+version = "0.1.0"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+# Linter
+[tool.ruff.lint]
+select = ["E", "F", "I"]  # errores, pep8-naming básicos, orden imports
+ignore = ["E501"]         # opcional: ignora longitud de línea si te molesta
+
+# Formateador (Ruff Formatter)
+[tool.ruff.format]
+line-ending = "lf"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["labs/lab3/src"]
+ignore_missing_imports = true

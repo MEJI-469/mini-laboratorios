@@ -7,3 +7,6 @@ duckdb
 pyarrow
 openpyxl
 requests
+ruff
+mypy
+pytest
