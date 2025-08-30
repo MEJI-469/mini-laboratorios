@@ -73,9 +73,9 @@ def compute_factor_crec_7d(df: pd.DataFrame) -> pd.DataFrame:
     out = df[["date", "location", "casos_semana", "factor_crec_7d"]].dropna()
     return out.rename(columns={"date": "semana_fin", "location": "pais"})
 
-# =========================
+# ==========================
 # Assets
-# =========================
+# ==========================
 @asset(description="Descarga el CSV de OWID (o lee de OWID_LOCAL_PATH) y devuelve un DataFrame crudo.")
 def leer_datos(context) -> pd.DataFrame:
     os.makedirs(OUTPUT_DIR, exist_ok=True)
