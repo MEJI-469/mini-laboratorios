@@ -1,0 +1,9 @@
+metric,valor
+filas,523599
+columnas,61
+new_cases_min,0.0
+new_cases_max,8401906.0
+pct_null_new_cases,3.3069199902979185
+pct_null_people_vaccinated,84.91001701683922
+fecha_min,2020-01-01 00:00:00
+fecha_max,2025-12-31 00:00:00

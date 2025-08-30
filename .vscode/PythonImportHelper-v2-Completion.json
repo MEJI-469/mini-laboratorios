@@ -1,10 +1,92 @@
 [
     {
-        "label": "annotations",
-        "importPath": "__future__",
-        "description": "__future__",
+        "label": "argparse",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "__future__",
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "winreg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "winreg",
+        "description": "winreg",
+        "detail": "winreg",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
         "documentation": {}
     },
     {
@@ -85,6 +167,97 @@
         "description": "__future__",
         "isExtraImport": true,
         "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "asset",
+        "importPath": "dagster",
+        "description": "dagster",
+        "isExtraImport": true,
+        "detail": "dagster",
+        "documentation": {}
+    },
+    {
+        "label": "asset_check",
+        "importPath": "dagster",
+        "description": "dagster",
+        "isExtraImport": true,
+        "detail": "dagster",
+        "documentation": {}
+    },
+    {
+        "label": "AssetCheckResult",
+        "importPath": "dagster",
+        "description": "dagster",
+        "isExtraImport": true,
+        "detail": "dagster",
+        "documentation": {}
+    },
+    {
+        "label": "Definitions",
+        "importPath": "dagster",
+        "description": "dagster",
+        "isExtraImport": true,
+        "detail": "dagster",
+        "documentation": {}
+    },
+    {
+        "label": "load_assets_from_modules",
+        "importPath": "dagster",
+        "description": "dagster",
+        "isExtraImport": true,
+        "detail": "dagster",
+        "documentation": {}
+    },
+    {
+        "label": "assets",
+        "importPath": "final_project",
+        "description": "final_project",
+        "isExtraImport": true,
+        "detail": "final_project",
         "documentation": {}
     },
     {
@@ -309,15 +482,6 @@
         "documentation": {}
     },
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
         "label": "Path",
         "importPath": "pathlib",
         "description": "pathlib",
@@ -339,15 +503,6 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
         "documentation": {}
     },
     {
@@ -447,6 +602,474 @@
         "importPath": "sys.",
         "description": "sys.",
         "detail": "sys.",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except OSError:\n                pass\n        tee_f.write(what)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_root_hkey",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU\n        return winreg.HKEY_CURRENT_USER",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "create_shortcut",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def create_shortcut(\n    path, description, filename, arguments=\"\", workdir=\"\", iconpath=\"\", iconindex=0\n):\n    import pythoncom\n    from win32com.shell import shell\n    ilink = pythoncom.CoCreateInstance(\n        shell.CLSID_ShellLink,\n        None,\n        pythoncom.CLSCTX_INPROC_SERVER,\n        shell.IID_IShellLink,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_special_folder_path",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_special_folder_path(path_name):\n    from win32com.shell import shell, shellcon\n    for maybe in \"\"\"\n        CSIDL_COMMON_STARTMENU CSIDL_STARTMENU CSIDL_COMMON_APPDATA\n        CSIDL_LOCAL_APPDATA CSIDL_APPDATA CSIDL_COMMON_DESKTOPDIRECTORY\n        CSIDL_DESKTOPDIRECTORY CSIDL_COMMON_STARTUP CSIDL_STARTUP\n        CSIDL_COMMON_PROGRAMS CSIDL_PROGRAMS CSIDL_PROGRAM_FILES_COMMON\n        CSIDL_PROGRAM_FILES CSIDL_FONTS\"\"\".split():\n        if maybe == path_name:\n            csidl = getattr(shellcon, maybe)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info.major,\n        sys.version_info.minor,\n        suffix,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(f\"-> {root_key_name}\\\\{key_name}[{value_name}]={value!r}\")\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(f\"-> DELETE {root_key_name}\\\\{key_name}[{value_name}]\")\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n    to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        try:\n            fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n        except OSError:\n            # No CSIDL_COMMON_PROGRAMS on this platform\n            fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(f\"Failed to unregister COM objects: {why}\")\n    try:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location: str) -> str:\n    location = os.path.abspath(location)\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError(\n            f'Path \"{location}\" is not an existing directory!'\n        )\n    return location\ndef main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python -m pywin32_postinstall -install\n    * or (shorter but you don't have control over which python environment is used)\n    > pywin32_postinstall -install\n    You need to execute this script, with a '-install' parameter,\n    to ensure the environment is setup correctly to install COM objects, services, etc.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(\n    os.path.join(\n        tempfile.gettempdir(),  # Send output somewhere so it can be found if necessary...\n        \"pywin32_postinstall.log\",\n    ),\n    \"w\",\n)\nclass Tee:\n    def __init__(self, file):\n        self.f = file",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(f\"*** Test script '{script}' exited with {result.returncode}\")\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [project_root] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))\nsite_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "procesar_base",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def procesar_base(df: pd.DataFrame, pais_a: str, pais_b: str) -> pd.DataFrame:\n    df = df.copy()\n    # Normaliza fecha a tz-naive\n    df[\"date\"] = pd.to_datetime(df[\"date\"], errors=\"coerce\", utc=True).dt.tz_convert(None)\n    # Coerción numérica\n    for col in [\"new_cases\", \"people_vaccinated\", \"population\"]:\n        if col in df.columns:\n            df[col] = pd.to_numeric(df[col], errors=\"coerce\")\n    # nulos críticos y duplicados clave\n    loc = _loc_col(df)",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "compute_incidencia_7d",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def compute_incidencia_7d(df: pd.DataFrame) -> pd.DataFrame:\n    df = df.copy().sort_values([\"location\", \"date\"])\n    df[\"incidencia_diaria\"] = (df[\"new_cases\"] / df[\"population\"]) * 100000\n    df[\"incidencia_7d\"] = (\n        df.groupby(\"location\")[\"incidencia_diaria\"].transform(lambda s: s.rolling(7, min_periods=1).mean())\n    )\n    return df[[\"date\", \"location\", \"incidencia_7d\"]].rename(columns={\"date\": \"fecha\", \"location\": \"pais\"})\ndef compute_factor_crec_7d(df: pd.DataFrame) -> pd.DataFrame:\n    df = df.copy().sort_values([\"location\", \"date\"])\n    df[\"casos_semana\"] = (",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "compute_factor_crec_7d",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def compute_factor_crec_7d(df: pd.DataFrame) -> pd.DataFrame:\n    df = df.copy().sort_values([\"location\", \"date\"])\n    df[\"casos_semana\"] = (\n        df.groupby(\"location\")[\"new_cases\"].transform(lambda s: s.rolling(7, min_periods=7).sum())\n    )\n    df[\"casos_semana_prev\"] = (\n        df.groupby(\"location\")[\"new_cases\"].transform(lambda s: s.shift(7).rolling(7, min_periods=7).sum())\n    )\n    df[\"factor_crec_7d\"] = df[\"casos_semana\"] / df[\"casos_semana_prev\"]\n    out = df[[\"date\", \"location\", \"casos_semana\", \"factor_crec_7d\"]].dropna()",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "leer_datos",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def leer_datos(context) -> pd.DataFrame:\n    os.makedirs(OUTPUT_DIR, exist_ok=True)\n    if OWID_LOCAL_PATH and os.path.exists(OWID_LOCAL_PATH):\n        context.log.info(f\"Leyendo CSV local: {OWID_LOCAL_PATH}\")\n        df = pd.read_csv(OWID_LOCAL_PATH)\n    else:\n        context.log.info(f\"Descargando CSV desde: {OWID_URL}\")\n        resp = requests.get(OWID_URL, timeout=60)\n        resp.raise_for_status()\n        df = pd.read_csv(pyio.BytesIO(resp.content))",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "tabla_perfilado",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def tabla_perfilado(context, leer_datos: pd.DataFrame) -> pd.DataFrame:\n    df = leer_datos.copy()\n    df[\"date\"] = pd.to_datetime(df[\"date\"], errors=\"coerce\", utc=True).dt.tz_convert(None)\n    new_cases = pd.to_numeric(df[\"new_cases\"], errors=\"coerce\")\n    people_vacc = pd.to_numeric(df[\"people_vaccinated\"], errors=\"coerce\")\n    perfil = pd.DataFrame([\n        {\"metric\": \"filas\", \"valor\": len(df)},\n        {\"metric\": \"columnas\", \"valor\": len(df.columns)},\n        {\"metric\": \"new_cases_min\", \"valor\": float(new_cases.min(skipna=True))},\n        {\"metric\": \"new_cases_max\", \"valor\": float(new_cases.max(skipna=True))},",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "datos_procesados",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def datos_procesados(context, leer_datos: pd.DataFrame) -> pd.DataFrame:\n    df = procesar_base(leer_datos, \"Ecuador\", COMPARISON_COUNTRY)\n    context.log.info(f\"Procesado: {len(df):,} filas. Países: Ecuador y {COMPARISON_COUNTRY}\")\n    return df\n@asset(description=\"Incidencia acumulada a 7 días por 100k habitantes.\")\ndef metrica_incidencia_7d(context, datos_procesados: pd.DataFrame) -> pd.DataFrame:\n    out = compute_incidencia_7d(datos_procesados)\n    context.log.info(f\"Incidencia 7d -> {len(out):,} filas.\")\n    return out\n@asset(description=\"Factor de crecimiento semanal (últimos 7 días / semana previa).\")",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "metrica_incidencia_7d",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def metrica_incidencia_7d(context, datos_procesados: pd.DataFrame) -> pd.DataFrame:\n    out = compute_incidencia_7d(datos_procesados)\n    context.log.info(f\"Incidencia 7d -> {len(out):,} filas.\")\n    return out\n@asset(description=\"Factor de crecimiento semanal (últimos 7 días / semana previa).\")\ndef metrica_factor_crec_7d(context, datos_procesados: pd.DataFrame) -> pd.DataFrame:\n    out = compute_factor_crec_7d(datos_procesados)\n    context.log.info(f\"Factor crecimiento 7d -> {len(out):,} filas.\")\n    return out\n@asset(description=\"Exporta resultados finales a un Excel multipestaña.\")",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "metrica_factor_crec_7d",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def metrica_factor_crec_7d(context, datos_procesados: pd.DataFrame) -> pd.DataFrame:\n    out = compute_factor_crec_7d(datos_procesados)\n    context.log.info(f\"Factor crecimiento 7d -> {len(out):,} filas.\")\n    return out\n@asset(description=\"Exporta resultados finales a un Excel multipestaña.\")\ndef reporte_excel_covid(\n    context,\n    datos_procesados: pd.DataFrame,\n    metrica_incidencia_7d: pd.DataFrame,\n    metrica_factor_crec_7d: pd.DataFrame,",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "reporte_excel_covid",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def reporte_excel_covid(\n    context,\n    datos_procesados: pd.DataFrame,\n    metrica_incidencia_7d: pd.DataFrame,\n    metrica_factor_crec_7d: pd.DataFrame,\n) -> str:\n    os.makedirs(OUTPUT_DIR, exist_ok=True)\n    out_xlsx = os.path.join(OUTPUT_DIR, \"reporte_covid.xlsx\")\n    with pd.ExcelWriter(out_xlsx, engine=\"openpyxl\") as writer:\n        datos_procesados.to_excel(writer, sheet_name=\"datos_procesados\", index=False)",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "check_no_future_dates",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def check_no_future_dates(context, leer_datos: pd.DataFrame) -> AssetCheckResult:\n    d = _scope_rows(leer_datos)\n    d[\"date\"] = pd.to_datetime(d[\"date\"], errors=\"coerce\", utc=True).dt.tz_convert(None)\n    # Sólo filas con datos reales\n    has_data = pd.to_numeric(d.get(\"new_cases\"), errors=\"coerce\").notna()\n    d = d.loc[has_data]\n    max_date = d[\"date\"].max()\n    today = pd.Timestamp.utcnow().tz_localize(None).normalize()\n    n_future = int((d[\"date\"] > today).sum())\n    passed = pd.isna(max_date) or (max_date <= today)",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "check_key_columns_not_null",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def check_key_columns_not_null(context, leer_datos: pd.DataFrame) -> AssetCheckResult:\n    loc = _loc_col(leer_datos)\n    d = _scope_rows(leer_datos)\n    req_cols = [loc, \"date\", \"population\"]\n    subset_nulls = {c: int(d[c].isna().sum()) for c in req_cols if c in d.columns}\n    global_pop_nulls = int(pd.to_numeric(leer_datos.get(\"population\"), errors=\"coerce\").isna().sum())\n    passed = all(subset_nulls.get(c, 1) == 0 for c in req_cols)\n    return AssetCheckResult(\n        passed=passed,\n        metadata={",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "check_unique_location_date",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def check_unique_location_date(context, leer_datos: pd.DataFrame) -> AssetCheckResult:\n    loc = _loc_col(leer_datos)\n    if not {loc, \"date\"}.issubset(leer_datos.columns):\n        return AssetCheckResult(passed=False, metadata={\"error\": f\"Faltan columnas {loc} o date\"})\n    dupes = int(leer_datos.duplicated(subset=[loc, \"date\"]).sum())\n    return AssetCheckResult(passed=(dupes == 0), metadata={\"duplicados\": dupes})\n@asset_check(asset=\"leer_datos\", description=\"Población > 0.\")\ndef check_population_positive(context, leer_datos: pd.DataFrame) -> AssetCheckResult:\n    pop = pd.to_numeric(leer_datos.get(\"population\"), errors=\"coerce\")\n    non_pos = int((pop <= 0).sum()) if pop is not None else -1",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "check_population_positive",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def check_population_positive(context, leer_datos: pd.DataFrame) -> AssetCheckResult:\n    pop = pd.to_numeric(leer_datos.get(\"population\"), errors=\"coerce\")\n    non_pos = int((pop <= 0).sum()) if pop is not None else -1\n    passed = (non_pos == 0) if pop is not None else False\n    return AssetCheckResult(passed=passed, metadata={\"poblacion_no_positiva\": non_pos})\n@asset_check(asset=\"leer_datos\", description=\"Política de negativos en new_cases.\")\ndef check_new_cases_policy(context, leer_datos: pd.DataFrame) -> AssetCheckResult:\n    new_cases = pd.to_numeric(leer_datos.get(\"new_cases\"), errors=\"coerce\")\n    neg_count = int((new_cases < 0).sum()) if new_cases is not None else -1\n    if ALLOW_NEG:",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "check_new_cases_policy",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def check_new_cases_policy(context, leer_datos: pd.DataFrame) -> AssetCheckResult:\n    new_cases = pd.to_numeric(leer_datos.get(\"new_cases\"), errors=\"coerce\")\n    neg_count = int((new_cases < 0).sum()) if new_cases is not None else -1\n    if ALLOW_NEG:\n        passed = True\n        note = \"Negativos permitidos (ALLOW_NEGATIVE_NEW_CASES=true).\"\n    else:\n        passed = (neg_count == 0)\n        note = \"Negativos NO permitidos. Ajusta ALLOW_NEGATIVE_NEW_CASES si corresponde.\"\n    return AssetCheckResult(passed=passed, metadata={\"negativos\": neg_count, \"nota\": note})",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "check_incidencia_7d_rango",
+        "kind": 2,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "def check_incidencia_7d_rango(context, metrica_incidencia_7d: pd.DataFrame) -> AssetCheckResult:\n    vals = pd.to_numeric(metrica_incidencia_7d[\"incidencia_7d\"], errors=\"coerce\")\n    outliers = int(((vals < 0) | (vals > 2000)).sum())\n    return AssetCheckResult(passed=(outliers == 0), metadata={\"fuera_de_rango\": outliers})",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "OWID_URL",
+        "kind": 5,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "OWID_URL = os.getenv(\n    \"OWID_URL\",\n    \"https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv\",\n)\nOWID_LOCAL_PATH = os.getenv(\"OWID_LOCAL_PATH\", \"\")\nCOMPARISON_COUNTRY = os.getenv(\"COMPARISON_COUNTRY\", \"Peru\")\nALLOW_NEG = os.getenv(\"ALLOW_NEGATIVE_NEW_CASES\", \"false\").lower() == \"true\"\nOUTPUT_DIR = os.getenv(\"OUTPUT_DIR\", \"final_project/output\")\n# =========================\n# Helpers",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "OWID_LOCAL_PATH",
+        "kind": 5,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "OWID_LOCAL_PATH = os.getenv(\"OWID_LOCAL_PATH\", \"\")\nCOMPARISON_COUNTRY = os.getenv(\"COMPARISON_COUNTRY\", \"Peru\")\nALLOW_NEG = os.getenv(\"ALLOW_NEGATIVE_NEW_CASES\", \"false\").lower() == \"true\"\nOUTPUT_DIR = os.getenv(\"OUTPUT_DIR\", \"final_project/output\")\n# =========================\n# Helpers\n# =========================\ndef _loc_col(df: pd.DataFrame) -> str:\n    \"\"\"Devuelve el nombre de la columna de país según el dataset:\n    'location' (owid-covid-data) o 'country' (compact.csv).\"\"\"",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "COMPARISON_COUNTRY",
+        "kind": 5,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "COMPARISON_COUNTRY = os.getenv(\"COMPARISON_COUNTRY\", \"Peru\")\nALLOW_NEG = os.getenv(\"ALLOW_NEGATIVE_NEW_CASES\", \"false\").lower() == \"true\"\nOUTPUT_DIR = os.getenv(\"OUTPUT_DIR\", \"final_project/output\")\n# =========================\n# Helpers\n# =========================\ndef _loc_col(df: pd.DataFrame) -> str:\n    \"\"\"Devuelve el nombre de la columna de país según el dataset:\n    'location' (owid-covid-data) o 'country' (compact.csv).\"\"\"\n    if \"location\" in df.columns:",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOW_NEG",
+        "kind": 5,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "ALLOW_NEG = os.getenv(\"ALLOW_NEGATIVE_NEW_CASES\", \"false\").lower() == \"true\"\nOUTPUT_DIR = os.getenv(\"OUTPUT_DIR\", \"final_project/output\")\n# =========================\n# Helpers\n# =========================\ndef _loc_col(df: pd.DataFrame) -> str:\n    \"\"\"Devuelve el nombre de la columna de país según el dataset:\n    'location' (owid-covid-data) o 'country' (compact.csv).\"\"\"\n    if \"location\" in df.columns:\n        return \"location\"",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_DIR",
+        "kind": 5,
+        "importPath": "final_project.src.final_project.assets",
+        "description": "final_project.src.final_project.assets",
+        "peekOfCode": "OUTPUT_DIR = os.getenv(\"OUTPUT_DIR\", \"final_project/output\")\n# =========================\n# Helpers\n# =========================\ndef _loc_col(df: pd.DataFrame) -> str:\n    \"\"\"Devuelve el nombre de la columna de país según el dataset:\n    'location' (owid-covid-data) o 'country' (compact.csv).\"\"\"\n    if \"location\" in df.columns:\n        return \"location\"\n    if \"country\" in df.columns:",
+        "detail": "final_project.src.final_project.assets",
+        "documentation": {}
+    },
+    {
+        "label": "defs",
+        "kind": 5,
+        "importPath": "final_project.src.final_project.definitions",
+        "description": "final_project.src.final_project.definitions",
+        "peekOfCode": "defs = Definitions(\n    assets=load_assets_from_modules([assets_module]),\n    asset_checks=[\n        assets_module.check_no_future_dates,\n        assets_module.check_key_columns_not_null,\n        assets_module.check_unique_location_date,\n        assets_module.check_population_positive,\n        assets_module.check_new_cases_policy,\n        assets_module.check_incidencia_7d_rango,\n    ],",
+        "detail": "final_project.src.final_project.definitions",
         "documentation": {}
     },
     {
